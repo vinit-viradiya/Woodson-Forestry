@@ -1,0 +1,116 @@
+footer{
+    padding-top: 50px;
+    background-color: #122a1c;
+    border-top: 1px solid #214229;
+    color: #7caa9c;
+    line-height: 1.7;
+    .heading{
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    form{
+        height: 50px;
+        margin-top: 35px;
+        input{
+            background-color: transparent;
+            border: 1px solid #214229;
+            outline: none;
+            color: #7caa9c;
+            font-size: 20px;
+            padding-left: 15px;
+        }
+        .btn{
+            text-align: center;
+            line-height: 50px;
+            background-color: $primary-color;
+            color: #fff;
+            transition: all .3s;
+            &:hover{
+                background-color: $secondary-color;
+            }
+        }
+    }
+    .footer-menu{
+        margin-top: 150px;
+        margin-bottom: 30px;
+        li{
+            border-right: 2px solid #ffffff26;
+            padding: 0px 10px;
+            a{
+                color: $secondary-color;
+                font-size: 13px;
+            }
+            &:last-child{
+            border: none;            
+            }
+        }
+    }
+    .foocol{
+        .f-content{
+            ul{
+                li{
+                    border-bottom: 1px dotted #214229;
+                    padding: 5px 0px;
+                }
+                & :last-child{
+                    border: none;
+                }
+            }
+        }
+        a{
+            color: $secondary-color;
+            transition: all .3s;
+            &:hover{
+                color: #b8f9c4;
+            }
+        }
+        span{
+            background-color: $secondary-color;
+            color: #fff;
+            font-style: italic;
+            float: right;
+            border-radius: 50%;
+            margin-top: 2px;
+            height: 24px;
+            width: 24px;
+            text-align: center;
+            font-size: 11px;
+            line-height: 24px;
+        }
+    }
+    .footer-below{
+        border-top: 1px solid #214229;
+        font-size: 12px;
+        padding: 20px 0px;
+        background-color: #173524;
+        .footer-icons{
+            span{
+                color: $secondary-color;
+                padding: 8px 18px;
+                border: 1px solid rgba(0,0,0,.1);
+                text-align: center;
+                border-color: #214229;
+                border-radius: 30px;
+                line-height: 1px;
+                cursor: pointer;
+                transition: all .3s;
+                i{
+                    font-size: 18px;
+                    margin-right: 10px;
+                }
+                &:hover{
+                    color: #fff;
+                }
+            }
+            & :nth-child(1):hover{
+                background-color: #47639e;
+            }
+            & :nth-child(2):hover{
+                background-color: #00abf0;
+            }
+            & :nth-child(3):hover{
+                background-color: #405de6;
+            }
+        }
+    }
+}

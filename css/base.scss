@@ -1,0 +1,104 @@
+$secondary-color: #00a680;
+$primary-color: #f17343;
+$white: #fff;
+$green: #083326;
+$gutter-width: 16px;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'jost';
+}
+.py-80{
+    padding: 80px 0px;
+}
+.py-100{
+    padding: 100px 0px;
+}
+.py-120{
+    padding: 120px 0px;
+}
+.position-abs{
+    position: absolute;
+}
+.position-rel{
+    position: relative;
+}
+ol,ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.w-1{
+    width :8.33%;
+}
+.w-2{
+    width :16.66%;
+}
+.w-3{
+    width :25%;
+}
+.w-4{
+    width :33.33%;
+}
+.w-5{
+    width :41.66%;
+}
+.w-6{
+    width :50%;
+}
+.w-7{
+    width :58.33%;
+}
+.w-8{
+    width :66.66%;
+}
+.w-9{
+    width :75%;
+}
+.w-10{
+    width :83.33%;
+}
+.w-11{
+    width :91.66%;
+}
+.w-12{
+    width :100%;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    padding-left: $gutter-width;
+    padding-right: $gutter-width;
+}
+.row{
+    margin-left: calc(-1* $gutter-width);
+    margin-right: calc(-1* $gutter-width);
+    display: flex;
+    flex-wrap: wrap;
+}

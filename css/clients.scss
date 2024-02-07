@@ -1,0 +1,18 @@
+.clients{
+    background-color: #f6f6f6;
+    margin-top: -120px;
+    padding-top: 160px;
+    .client{
+        img{
+            width: 100%;
+            scale: .6;
+            opacity: .6;
+        }
+        &:nth-child(2){
+            scale: .6;
+        }
+        &:nth-child(4){
+            scale: .7;
+        }
+    }
+}
