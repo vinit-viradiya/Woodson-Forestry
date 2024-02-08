@@ -1,2 +1,2 @@
 # Woodson-Forestry
-HTML / CSS /SCSS
+HTML / CSS / SCSS
