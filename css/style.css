@@ -21,7 +21,7 @@
       width: 64px;
       height: 64px;
       position: relative;
-      background: #122a1c;
+      background: #000;
       border-radius: 50%;
       transform: rotate(45deg);
       animation: rotate 2s linear infinite;
